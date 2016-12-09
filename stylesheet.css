@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+}
+body > div {
+  margin-top: 200px;
+}
+
+#top {
+  margin: auto;
+  text-align: center;
+}
+#logo {
+  height: 92px;
+  width: 272px;
+  margin: auto;
+}
+
+#search {
+  height: 44px;
+  width: 584px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#searchbar {
+  height: 40px;
+  width: 584px;
+  font: 16px arial;
+  margin: auto
+}
+
+#buttons {
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.searchbutton {
+  display: inline;
+  background-color: #f2f2f2;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 13px;
+  color: #757575;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  margin: 0px 4px;
+  padding: 10px 16px;
+  height: 36px;
+}
+.searchbutton:hover {
+  border-color: rgb(198, 198, 198);
+  color: black;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin: 0;
+  margin-left: -10px;
+  border-top: 1px solid #e4e4e4;
+}
+
+#lefttriplet {
+  float: left;
+}
+#righttriplet {
+  float: right;
+}
+
+.bottomlinkleft, .bottomlinkright {
+  display: inline;
+  color: #666;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  padding: 15px;
+  line-height: 40px;
+}
+.bottomlinkleft:hover, .bottomlinkright:hover {
+  text-decoration: underline;
+}
